@@ -1,5 +1,5 @@
 REQUIREMENTS
-This python script requires BeautifulSoup v4 and html5lib to run. To install
+This python 2.7 script requires BeautifulSoup v4 and html5lib to run. To install
 these dependances, run the following commands:
 
 sudo pip install beautifulsoup4
