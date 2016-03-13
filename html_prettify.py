@@ -8,7 +8,6 @@ def help_output():
 
     Options:
     -h, --help      Print this output.
-
     """
 
 def main(argv):
@@ -33,7 +32,7 @@ def main(argv):
         soup = BeautifulSoup(open(inFile), "html5lib")
 
         workingFile = open(outFile, 'w')
-        workingFile.write(soup.prettify())
+        workingFile.write(soup.prettify().encode('utf-8'))
         workingFile.close()
 
 if __name__ == "__main__":
